@@ -591,8 +591,55 @@ $(document).ready(function () {
 
 })(jQuery);
 
+$(".moreless-button2").click(function () {
+  $(".moretext2").slideToggle(10);
+  if ($(".moreless-button2").text() == "Read More") {
+    $(this).text("Read Less");
+  } else {
+    $(this).text("Read More");
+  }
+});
 
 
+$(".moreless-button3").click(function () {
+  $(".moretext3").slideToggle(10);
+  if ($(".moreless-button3").text() == "Read More") {
+    $(this).text("Read Less");
+  } else {
+    $(this).text("Read More");
+  }
+});
+
+
+$(".moreless-button4").click(function () {
+  $(".moretext4").slideToggle(10);
+  if ($(".moreless-button4").text() == "Read More") {
+    $(this).text("Read Less");
+  } else {
+    $(this).text("Read More");
+  }
+});
+
+
+$(".moreless-button5").click(function () {
+  $(".moretext5").slideToggle(10);
+  if ($(".moreless-button5").text() == "Read More") {
+    $(this).text("Read Less");
+  } else {
+    $(this).text("Read More");
+  }
+});
+
+
+
+$(".moreless-button6").click(function () {
+  $(".moretext6").slideToggle(10);
+  if ($(".moreless-button6").text() == "Read More") {
+    $(this).text("Read Less");
+  } else {
+    $(this).text("Read More");
+  }
+});
 $(".moreless-button").click(function () {
   $(".moretext").slideToggle(10);
   if ($(".moreless-button").text() == "Read More") {
