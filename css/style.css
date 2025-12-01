@@ -2536,7 +2536,7 @@ body {
   overflow-x: hidden !important;
 }
 :root {
-  /* --dark: #aba08b; */
+  /* --dark: rgb(218 165 32); */
   --dark: #daa520;
   --light: #699bc6;
 }
@@ -4672,7 +4672,7 @@ p.high-point-head {
     bottom: 0;
     left: 0;
     width: 100%;
-    background: #aba08b;
+    background: rgb(218 165 32);
     z-index: 999;
     display: flex;
     justify-content: space-around;
@@ -4682,14 +4682,14 @@ p.high-point-head {
   .btn-success {
     color: #fff;
     background-color: transparent;
-    border: 1px solid #aba08b;
+    border: 1px solid rgb(218 165 32);
     border-radius: 0;
     width: 50%;
   }
   .btn-success:hover {
     color: #fff;
-    background-color: #aba08b;
-    border-color: #aba08b;
+    background-color: rgb(218 165 32);
+    border-color: rgb(218 165 32);
   }
   .modal-body h2 {
     font-size: 22px;
@@ -5153,7 +5153,7 @@ p.high-point-head {
     font-size: 14px;
     border-radius: 2px;
     letter-spacing: 1px;
-    background-color: #aba08b;
+    background-color: rgb(218 165 32);
     padding: 8px 20px;
     color: #fff;
     border: none;
